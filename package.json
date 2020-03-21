@@ -1,0 +1,29 @@
+{
+  "name": "grammarly-api",
+  "version": "0.0.0",
+  "description": "Great Writing, Simplified",
+  "main": "index.js",
+  "repository": "bukinoshita/grammarly-api",
+  "author": "bukinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc",
+    "test": "xo --prettier"
+  },
+  "dependencies": {
+    "@stewartmcgown/grammarly-api": "1.1.2",
+    "next": "9.3.1",
+    "react": "16.13.0",
+    "react-dom": "16.13.0"
+  },
+  "devDependencies": {
+    "@ava/typescript": "1.1.1",
+    "@types/node": "13.9.2",
+    "@types/react": "16.9.23",
+    "typescript": "3.8.3",
+    "xo": "0.28.0"
+  }
+}
