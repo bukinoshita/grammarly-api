@@ -30,4 +30,4 @@ curl -X GET \
 [travis-badge]: https://img.shields.io/travis/bukinoshita/grammarly-api.svg
 [travis]: https://travis-ci.org/bukinoshita/grammarly-api
 [license]: license
-[author]: https://bukinoshita.io
+[author]: https://bukinoshita.com
