@@ -2,7 +2,7 @@ import { Grammarly } from '@stewartmcgown/grammarly-api'
 
 import { NextApiRequest, NextApiResponse } from 'next'
 
-export default async (
+const grammarly = async (
   request: NextApiRequest,
   response: NextApiResponse
 ): Promise<void> => {
@@ -16,3 +16,5 @@ export default async (
 
   return response.status(404).json({ error: { message: 'Missing text' } })
 }
+
+export default grammarly
