@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@ava/typescript": "1.1.1",
-    "@types/node": "13.13.15",
+    "@types/node": "13.13.17",
     "@types/react": "16.9.43",
     "typescript": "3.9.7",
     "xo": "0.32.1"
