@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@stewartmcgown/grammarly-api": "1.1.2",
-    "next": "9.5.5",
+    "next": "10.0.6",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
